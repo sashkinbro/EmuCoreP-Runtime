@@ -12,7 +12,7 @@ devices.
 
 | Component | Available versions | Recommended |
 | --- | --- | --- |
-| Root file system | 11.1 | 11.1 |
+| Root file system | 11.1-c2f4ad4-p1 | 11.1-c2f4ad4-p1 |
 | Wine | 10.10 | 10.10 |
 | Box64 | 0.3.7, 0.4.0 | 0.4.0 |
 | DXVK | 1.10.3, 2.4.1, 2.6.1 Preview | 2.4.1 |
@@ -21,6 +21,10 @@ devices.
 
 The recommended set is selected automatically during first-run setup. Other
 versions remain available in the component manager for per-game compatibility.
+
+The root file system includes the Android ALSA bridge and Wine input handler
+required by the native guest runtime. Turnip packages use package-independent
+Vulkan ICD paths and can be installed under any Android application id.
 
 ## Manifest
 

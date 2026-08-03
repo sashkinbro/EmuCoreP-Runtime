@@ -1,18 +1,18 @@
 {
     "schemaVersion":  2,
-    "revision":  2026080301,
+    "revision":  2026080302,
     "components":  [
                        {
-                           "id":  "rootfs-winlator-11.1-c2f4ad4",
+                           "id":  "rootfs-winlator-11.1-c2f4ad4-p1",
                            "type":  "RootFileSystem",
-                           "version":  "11.1-c2f4ad4",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-rootfs-11.1-c2f4ad4.tar.zst",
-                           "sha256":  "c71c0f4d098e94da93e4be2a069cfa39a8a5553ae25e1d374a43146f1c3eecec",
-                           "sizeBytes":  25106236,
-                           "unpackedSizeBytes":  95568004,
-                           "unpackedFileCount":  1475,
+                           "version":  "11.1-c2f4ad4-p1",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-rootfs-11.1-c2f4ad4-p1.tar.zst",
+                           "sha256":  "74552d90c37b46677e6b6f934f63ba5cadf6416ba9ccd1d4342a7f62ec591bb5",
+                           "sizeBytes":  25128686,
+                           "unpackedSizeBytes":  95707987,
+                           "unpackedFileCount":  1477,
                            "archiveFormat":  "TarZstd",
-                           "installDirectory":  "rootfs/11.1-c2f4ad4",
+                           "installDirectory":  "rootfs/11.1-c2f4ad4-p1",
                            "requires":  [
 
                                         ],
@@ -23,7 +23,7 @@
                            "id":  "wine-10.10",
                            "type":  "Wine",
                            "version":  "10.10",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-wine-10.10.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-wine-10.10.tar.zst",
                            "sha256":  "b53ff89d479fb0d4422f7075ca4771145b647ebf9fc8f13ba1f84f53d409a4be",
                            "sizeBytes":  67327006,
                            "unpackedSizeBytes":  317048554,
@@ -31,7 +31,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "wine/10.10",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -40,7 +40,7 @@
                            "id":  "box64-0.3.7",
                            "type":  "Box64",
                            "version":  "0.3.7",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-box64-0.3.7.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-box64-0.3.7.tar.zst",
                            "sha256":  "2f78d547fac9d5c01a4d935c51c24a035d63236d0c739b44b59f2da2ae30de74",
                            "sizeBytes":  4043205,
                            "unpackedSizeBytes":  26229952,
@@ -48,7 +48,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "box64/0.3.7",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -57,7 +57,7 @@
                            "id":  "box64-0.4.0",
                            "type":  "Box64",
                            "version":  "0.4.0",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-box64-0.4.0.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-box64-0.4.0.tar.zst",
                            "sha256":  "047fccbd2e3022a624b7442b105137f860f60dda229743f8a9754dcd21c41906",
                            "sizeBytes":  4055166,
                            "unpackedSizeBytes":  26678736,
@@ -65,7 +65,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "box64/0.4.0",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -74,7 +74,7 @@
                            "id":  "dxvk-1.10.3",
                            "type":  "Dxvk",
                            "version":  "1.10.3",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-dxvk-1.10.3.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-dxvk-1.10.3.tar.zst",
                            "sha256":  "18ed7c263e0d52c4bbd0e7345b4f22908c10966f37d7d6d80c639ec45123075a",
                            "sizeBytes":  3554248,
                            "unpackedSizeBytes":  24232104,
@@ -91,7 +91,7 @@
                            "id":  "dxvk-2.4.1",
                            "type":  "Dxvk",
                            "version":  "2.4.1",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-dxvk-2.4.1.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-dxvk-2.4.1.tar.zst",
                            "sha256":  "897cc48500241006c15c62f200e9a6e1ea8a674bd285da25df6f68fdcdbfe42e",
                            "sizeBytes":  4322727,
                            "unpackedSizeBytes":  25727116,
@@ -108,7 +108,7 @@
                            "id":  "dxvk-2.6.1",
                            "type":  "Dxvk",
                            "version":  "2.6.1",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-dxvk-2.6.1.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-dxvk-2.6.1.tar.zst",
                            "sha256":  "29a198dbc4a9e58519d4942a3725850ed23ccac36ee92d73415d5c0528a3e4b8",
                            "sizeBytes":  4659590,
                            "unpackedSizeBytes":  28119180,
@@ -125,7 +125,7 @@
                            "id":  "vkd3d-proton-2.12",
                            "type":  "Vkd3dProton",
                            "version":  "2.12",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-vkd3d-proton-2.12.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-vkd3d-proton-2.12.tar.zst",
                            "sha256":  "9929ee5a3347c927b6becf635761bf3c47227ad96c3e4048b0ad1573d054bf09",
                            "sizeBytes":  3649467,
                            "unpackedSizeBytes":  12660792,
@@ -142,7 +142,7 @@
                            "id":  "vkd3d-proton-2.14.1",
                            "type":  "Vkd3dProton",
                            "version":  "2.14.1",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-vkd3d-proton-2.14.1.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-vkd3d-proton-2.14.1.tar.zst",
                            "sha256":  "354b43b84df136683c7ad9cb80e125b4a357de7459fab9ac8b56d5fe4a617687",
                            "sizeBytes":  2359119,
                            "unpackedSizeBytes":  7409720,
@@ -159,7 +159,7 @@
                            "id":  "vkd3d-proton-3.0b",
                            "type":  "Vkd3dProton",
                            "version":  "3.0b",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-vkd3d-proton-3.0b.tar.zst",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-vkd3d-proton-3.0b.tar.zst",
                            "sha256":  "37bc0549e4c6f7eb291391c4e2894cbdb6346e3d4c4db547fba8b0df77a2344b",
                            "sizeBytes":  3991584,
                            "unpackedSizeBytes":  12382264,
@@ -176,15 +176,15 @@
                            "id":  "turnip-25.0.0",
                            "type":  "Turnip",
                            "version":  "25.0.0",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-turnip-25.0.0.tar.zst",
-                           "sha256":  "4a57d0fe980b3685a0e36326de8bf9d30de86075fa4e934213b8b8cfde8f492e",
-                           "sizeBytes":  2059924,
-                           "unpackedSizeBytes":  11511542,
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-25.0.0.tar.zst",
+                           "sha256":  "07460d1827a5a00a0251078276419f190ae03cd69f7f6acb3d1d21c5f09e250a",
+                           "sizeBytes":  2324611,
+                           "unpackedSizeBytes":  11511501,
                            "unpackedFileCount":  2,
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "turnip/25.0.0",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -193,15 +193,15 @@
                            "id":  "turnip-26.0.3",
                            "type":  "Turnip",
                            "version":  "26.0.3",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-turnip-26.0.3.tar.zst",
-                           "sha256":  "085e05496ccf5056249d96f59f51d1ec3521fe52106e7926ad08c00dbe75c9c1",
-                           "sizeBytes":  2427686,
-                           "unpackedSizeBytes":  15225740,
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-26.0.3.tar.zst",
+                           "sha256":  "696f10e93eceda7562a3b6dba93d6a050809b257b43b6ac563948a5390f665ed",
+                           "sizeBytes":  2738562,
+                           "unpackedSizeBytes":  15225699,
                            "unpackedFileCount":  2,
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "turnip/26.0.3",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -210,15 +210,15 @@
                            "id":  "turnip-26.1.0",
                            "type":  "Turnip",
                            "version":  "26.1.0",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-turnip-26.1.0.tar.zst",
-                           "sha256":  "9b4a10975456197e403c2b6a8a9781a8fd42ccf5048262a8cdea6538bb68d288",
-                           "sizeBytes":  2505432,
-                           "unpackedSizeBytes":  16101748,
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-26.1.0.tar.zst",
+                           "sha256":  "44c14b2665508cd73fce471525ea587fe94ef324357c81fe7c1e79e2708a69e5",
+                           "sizeBytes":  2815119,
+                           "unpackedSizeBytes":  16101707,
                            "unpackedFileCount":  2,
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "turnip/26.1.0",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4"
+                                            "rootfs-winlator-11.1-c2f4ad4-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
