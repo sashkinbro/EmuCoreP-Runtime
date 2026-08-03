@@ -1,0 +1,167 @@
+{
+    "formatVersion":  1,
+    "generatedFrom":  {
+                          "winlatorRepository":  "https://github.com/brunodev85/winlator",
+                          "winlatorCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                          "winlatorAppRepository":  "https://github.com/brunodev85/winlator-app",
+                          "winlatorAppCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c"
+                      },
+    "components":  [
+                       {
+                           "id":  "rootfs-winlator-11.1-c2f4ad4",
+                           "releaseAsset":  "emucorep-rootfs-11.1-c2f4ad4.tar.zst",
+                           "releaseSha256":  "c71c0f4d098e94da93e4be2a069cfa39a8a5553ae25e1d374a43146f1c3eecec",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/rootfs.tzst",
+                           "sourceSha256":  "27c12533323e0cc0e5f4ddf141a0d567e340cf2740e5aebaefc63b039fd19613",
+                           "upstreamProject":  "https://github.com/brunodev85/winlator",
+                           "license":  "NOASSERTION",
+                           "transformation":  "rootfs.tzst entries excluding opt/wine"
+                       },
+                       {
+                           "id":  "wine-10.10",
+                           "releaseAsset":  "emucorep-wine-10.10.tar.zst",
+                           "releaseSha256":  "b53ff89d479fb0d4422f7075ca4771145b647ebf9fc8f13ba1f84f53d409a4be",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/rootfs.tzst",
+                           "sourceSha256":  "27c12533323e0cc0e5f4ddf141a0d567e340cf2740e5aebaefc63b039fd19613",
+                           "upstreamProject":  "https://gitlab.winehq.org/wine/wine",
+                           "license":  "LGPL-2.1-or-later",
+                           "transformation":  "rootfs.tzst opt/wine entries"
+                       },
+                       {
+                           "id":  "box64-0.3.7",
+                           "releaseAsset":  "emucorep-box64-0.3.7.tar.zst",
+                           "releaseSha256":  "2f78d547fac9d5c01a4d935c51c24a035d63236d0c739b44b59f2da2ae30de74",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/box64/box64-0.3.7.tzst",
+                           "sourceSha256":  "2f78d547fac9d5c01a4d935c51c24a035d63236d0c739b44b59f2da2ae30de74",
+                           "upstreamProject":  "https://github.com/ptitSeb/box64",
+                           "license":  "MIT",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "box64-0.4.0",
+                           "releaseAsset":  "emucorep-box64-0.4.0.tar.zst",
+                           "releaseSha256":  "047fccbd2e3022a624b7442b105137f860f60dda229743f8a9754dcd21c41906",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/box64/box64-0.4.0.tzst",
+                           "sourceSha256":  "047fccbd2e3022a624b7442b105137f860f60dda229743f8a9754dcd21c41906",
+                           "upstreamProject":  "https://github.com/ptitSeb/box64",
+                           "license":  "MIT",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "dxvk-1.10.3",
+                           "releaseAsset":  "emucorep-dxvk-1.10.3.tar.zst",
+                           "releaseSha256":  "18ed7c263e0d52c4bbd0e7345b4f22908c10966f37d7d6d80c639ec45123075a",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/dxwrapper/dxvk-1.10.3.tzst",
+                           "sourceSha256":  "18ed7c263e0d52c4bbd0e7345b4f22908c10966f37d7d6d80c639ec45123075a",
+                           "upstreamProject":  "https://github.com/doitsujin/dxvk",
+                           "license":  "Zlib",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "dxvk-2.4.1",
+                           "releaseAsset":  "emucorep-dxvk-2.4.1.tar.zst",
+                           "releaseSha256":  "897cc48500241006c15c62f200e9a6e1ea8a674bd285da25df6f68fdcdbfe42e",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/dxwrapper/dxvk-2.4.1.tzst",
+                           "sourceSha256":  "897cc48500241006c15c62f200e9a6e1ea8a674bd285da25df6f68fdcdbfe42e",
+                           "upstreamProject":  "https://github.com/doitsujin/dxvk",
+                           "license":  "Zlib",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "dxvk-2.6.1",
+                           "releaseAsset":  "emucorep-dxvk-2.6.1.tar.zst",
+                           "releaseSha256":  "29a198dbc4a9e58519d4942a3725850ed23ccac36ee92d73415d5c0528a3e4b8",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/dxvk/dxvk-2.6.1.tzst",
+                           "sourceSha256":  "29a198dbc4a9e58519d4942a3725850ed23ccac36ee92d73415d5c0528a3e4b8",
+                           "upstreamProject":  "https://github.com/doitsujin/dxvk",
+                           "license":  "Zlib",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "vkd3d-proton-2.12",
+                           "releaseAsset":  "emucorep-vkd3d-proton-2.12.tar.zst",
+                           "releaseSha256":  "9929ee5a3347c927b6becf635761bf3c47227ad96c3e4048b0ad1573d054bf09",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/vkd3d/vkd3d-2.12.tzst",
+                           "sourceSha256":  "9929ee5a3347c927b6becf635761bf3c47227ad96c3e4048b0ad1573d054bf09",
+                           "upstreamProject":  "https://github.com/HansKristian-Work/vkd3d-proton",
+                           "license":  "LGPL-2.1-or-later",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "vkd3d-proton-2.14.1",
+                           "releaseAsset":  "emucorep-vkd3d-proton-2.14.1.tar.zst",
+                           "releaseSha256":  "354b43b84df136683c7ad9cb80e125b4a357de7459fab9ac8b56d5fe4a617687",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/dxwrapper/vkd3d-2.14.1.tzst",
+                           "sourceSha256":  "354b43b84df136683c7ad9cb80e125b4a357de7459fab9ac8b56d5fe4a617687",
+                           "upstreamProject":  "https://github.com/HansKristian-Work/vkd3d-proton",
+                           "license":  "LGPL-2.1-or-later",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "vkd3d-proton-3.0b",
+                           "releaseAsset":  "emucorep-vkd3d-proton-3.0b.tar.zst",
+                           "releaseSha256":  "37bc0549e4c6f7eb291391c4e2894cbdb6346e3d4c4db547fba8b0df77a2344b",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/vkd3d/vkd3d-3.0b.tzst",
+                           "sourceSha256":  "37bc0549e4c6f7eb291391c4e2894cbdb6346e3d4c4db547fba8b0df77a2344b",
+                           "upstreamProject":  "https://github.com/HansKristian-Work/vkd3d-proton",
+                           "license":  "LGPL-2.1-or-later",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "turnip-25.0.0",
+                           "releaseAsset":  "emucorep-turnip-25.0.0.tar.zst",
+                           "releaseSha256":  "4a57d0fe980b3685a0e36326de8bf9d30de86075fa4e934213b8b8cfde8f492e",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/turnip/turnip-25.0.0.tzst",
+                           "sourceSha256":  "4a57d0fe980b3685a0e36326de8bf9d30de86075fa4e934213b8b8cfde8f492e",
+                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
+                           "license":  "MIT",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "turnip-26.0.3",
+                           "releaseAsset":  "emucorep-turnip-26.0.3.tar.zst",
+                           "releaseSha256":  "085e05496ccf5056249d96f59f51d1ec3521fe52106e7926ad08c00dbe75c9c1",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
+                           "sourcePath":  "installable_components/turnip/turnip-26.0.3.tzst",
+                           "sourceSha256":  "085e05496ccf5056249d96f59f51d1ec3521fe52106e7926ad08c00dbe75c9c1",
+                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
+                           "license":  "MIT",
+                           "transformation":  "byte-for-byte release asset copy"
+                       },
+                       {
+                           "id":  "turnip-26.1.0",
+                           "releaseAsset":  "emucorep-turnip-26.1.0.tar.zst",
+                           "releaseSha256":  "9b4a10975456197e403c2b6a8a9781a8fd42ccf5048262a8cdea6538bb68d288",
+                           "sourceRepository":  "https://github.com/brunodev85/winlator",
+                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
+                           "sourcePath":  "app/app/src/main/assets/graphics_driver/turnip-26.1.0.tzst",
+                           "sourceSha256":  "9b4a10975456197e403c2b6a8a9781a8fd42ccf5048262a8cdea6538bb68d288",
+                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
+                           "license":  "MIT",
+                           "transformation":  "byte-for-byte release asset copy"
+                       }
+                   ]
+}
