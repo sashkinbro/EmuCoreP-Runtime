@@ -3,10 +3,10 @@
 [![Manifest schema](https://img.shields.io/badge/Manifest-v2-4D9EFF)](manifest.json)
 [![Components](https://img.shields.io/badge/Components-SHA--256%20verified-2E7D32)](manifest.json)
 
-EmuCoreP Runtime is the versioned component catalog used by
-[EmuCoreP](https://github.com/sashkinbro/EmuCoreP). Release assets provide the
-minimal Windows compatibility stack, CPU translation layers and graphics
-drivers used to start compatible PC games on ARM64 Android devices.
+EmuCoreP Runtime is the versioned component catalog used by EmuCoreP. Release
+assets provide the minimal Windows compatibility stack, CPU translation layers
+and graphics drivers used to start compatible PC games on ARM64 Android
+devices.
 
 ## Component Catalog
 
