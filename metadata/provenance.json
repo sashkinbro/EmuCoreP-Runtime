@@ -126,42 +126,6 @@
                            "upstreamProject":  "https://github.com/HansKristian-Work/vkd3d-proton",
                            "license":  "LGPL-2.1-or-later",
                            "transformation":  "byte-for-byte release asset copy"
-                       },
-                       {
-                           "id":  "turnip-25.0.0",
-                           "releaseAsset":  "emucorep-turnip-25.0.0.tar.zst",
-                           "releaseSha256":  "07460d1827a5a00a0251078276419f190ae03cd69f7f6acb3d1d21c5f09e250a",
-                           "sourceRepository":  "https://github.com/brunodev85/winlator",
-                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
-                           "sourcePath":  "installable_components/turnip/turnip-25.0.0.tzst",
-                           "sourceSha256":  "4a57d0fe980b3685a0e36326de8bf9d30de86075fa4e934213b8b8cfde8f492e",
-                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
-                           "license":  "MIT",
-                           "transformation":  "repacked with package-independent Vulkan ICD library_path"
-                       },
-                       {
-                           "id":  "turnip-26.0.3",
-                           "releaseAsset":  "emucorep-turnip-26.0.3.tar.zst",
-                           "releaseSha256":  "696f10e93eceda7562a3b6dba93d6a050809b257b43b6ac563948a5390f665ed",
-                           "sourceRepository":  "https://github.com/brunodev85/winlator",
-                           "sourceCommit":  "fb66541b93a4eb3ee585a433b4c7b20544d58e40",
-                           "sourcePath":  "installable_components/turnip/turnip-26.0.3.tzst",
-                           "sourceSha256":  "085e05496ccf5056249d96f59f51d1ec3521fe52106e7926ad08c00dbe75c9c1",
-                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
-                           "license":  "MIT",
-                           "transformation":  "repacked with package-independent Vulkan ICD library_path"
-                       },
-                       {
-                           "id":  "turnip-26.1.0",
-                           "releaseAsset":  "emucorep-turnip-26.1.0.tar.zst",
-                           "releaseSha256":  "44c14b2665508cd73fce471525ea587fe94ef324357c81fe7c1e79e2708a69e5",
-                           "sourceRepository":  "https://github.com/brunodev85/winlator",
-                           "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
-                           "sourcePath":  "app/app/src/main/assets/graphics_driver/turnip-26.1.0.tzst",
-                           "sourceSha256":  "9b4a10975456197e403c2b6a8a9781a8fd42ccf5048262a8cdea6538bb68d288",
-                           "upstreamProject":  "https://gitlab.freedesktop.org/mesa/mesa",
-                           "license":  "MIT",
-                           "transformation":  "repacked with package-independent Vulkan ICD library_path"
                        }
                    ]
 }
