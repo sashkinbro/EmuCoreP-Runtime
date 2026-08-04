@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "revision":  2026080302,
+    "revision":  2026080401,
     "components":  [
                        {
                            "id":  "rootfs-winlator-11.1-c2f4ad4-p1",
@@ -171,57 +171,6 @@
                                         ],
                            "channel":  "Preview",
                            "recommended":  false
-                       },
-                       {
-                           "id":  "turnip-25.0.0",
-                           "type":  "Turnip",
-                           "version":  "25.0.0",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-25.0.0.tar.zst",
-                           "sha256":  "07460d1827a5a00a0251078276419f190ae03cd69f7f6acb3d1d21c5f09e250a",
-                           "sizeBytes":  2324611,
-                           "unpackedSizeBytes":  11511501,
-                           "unpackedFileCount":  2,
-                           "archiveFormat":  "TarZstd",
-                           "installDirectory":  "turnip/25.0.0",
-                           "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
-                                        ],
-                           "channel":  "Stable",
-                           "recommended":  false
-                       },
-                       {
-                           "id":  "turnip-26.0.3",
-                           "type":  "Turnip",
-                           "version":  "26.0.3",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-26.0.3.tar.zst",
-                           "sha256":  "696f10e93eceda7562a3b6dba93d6a050809b257b43b6ac563948a5390f665ed",
-                           "sizeBytes":  2738562,
-                           "unpackedSizeBytes":  15225699,
-                           "unpackedFileCount":  2,
-                           "archiveFormat":  "TarZstd",
-                           "installDirectory":  "turnip/26.0.3",
-                           "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
-                                        ],
-                           "channel":  "Stable",
-                           "recommended":  false
-                       },
-                       {
-                           "id":  "turnip-26.1.0",
-                           "type":  "Turnip",
-                           "version":  "26.1.0",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-turnip-26.1.0.tar.zst",
-                           "sha256":  "44c14b2665508cd73fce471525ea587fe94ef324357c81fe7c1e79e2708a69e5",
-                           "sizeBytes":  2815119,
-                           "unpackedSizeBytes":  16101707,
-                           "unpackedFileCount":  2,
-                           "archiveFormat":  "TarZstd",
-                           "installDirectory":  "turnip/26.1.0",
-                           "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
-                                        ],
-                           "channel":  "Stable",
-                           "recommended":  true
                        }
                    ]
 }

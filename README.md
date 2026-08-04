@@ -17,14 +17,13 @@ devices.
 | Box64 | 0.3.7, 0.4.0 | 0.4.0 |
 | DXVK | 1.10.3, 2.4.1, 2.6.1 Preview | 2.4.1 |
 | VKD3D-Proton | 2.12, 2.14.1, 3.0b Preview | 2.14.1 |
-| Mesa Turnip | 25.0.0, 26.0.3, 26.1.0 | 26.1.0 |
 
 The recommended set is selected automatically during first-run setup. Other
 versions remain available in the component manager for per-game compatibility.
 
 The root file system includes the Android ALSA bridge and Wine input handler
-required by the native guest runtime. Turnip packages use package-independent
-Vulkan ICD paths and can be installed under any Android application id.
+required by the native guest runtime. The device system Vulkan driver is used
+by default; optional GPU drivers are managed through the separate driver catalog.
 
 ## Manifest
 
@@ -68,7 +67,6 @@ is recorded in
 - [Box64](https://github.com/ptitSeb/box64) — MIT
 - [DXVK](https://github.com/doitsujin/dxvk) — Zlib
 - [VKD3D-Proton](https://github.com/HansKristian-Work/vkd3d-proton) — LGPL-2.1-or-later
-- [Mesa Turnip](https://gitlab.freedesktop.org/mesa/mesa) — MIT
 
 Each component remains governed by its upstream license. The repository does
 not contain Windows, commercial games, credentials or DRM circumvention tools.
