@@ -8,28 +8,28 @@
                       },
     "components":  [
                        {
-                           "id":  "rootfs-winlator-11.1-c2f4ad4-p1",
-                           "releaseAsset":  "emucorep-rootfs-11.1-c2f4ad4-p1.tar.zst",
-                           "releaseSha256":  "74552d90c37b46677e6b6f934f63ba5cadf6416ba9ccd1d4342a7f62ec591bb5",
+                           "id":  "rootfs-emucorep-11.1-c2f4ad4-p2",
+                           "releaseAsset":  "emucorep-rootfs-11.1-c2f4ad4-p2.tar.zst",
+                           "releaseSha256":  "b562d00f435307369a9577558633e46c8bc9f978048f8a2525489fd2ff965d92",
                            "sourceRepository":  "https://github.com/brunodev85/winlator",
                            "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
                            "sourcePath":  "app/app/src/main/assets/rootfs.tzst",
                            "sourceSha256":  "27c12533323e0cc0e5f4ddf141a0d567e340cf2740e5aebaefc63b039fd19613",
                            "upstreamProject":  "https://github.com/brunodev85/winlator",
                            "license":  "NOASSERTION",
-                           "transformation":  "rootfs.tzst entries excluding opt/wine plus whitelisted Android ALSA and Wine input patches from rootfs_patches.tzst"
+                           "transformation":  "rootfs.tzst entries excluding opt/wine plus whitelisted Android ALSA and Wine input patches from rootfs_patches.tzst; fixed-length private runtime root relocation to /data/data/com.sbro.emucorep/rootfs_; EmuCoreP relocation marker added"
                        },
                        {
-                           "id":  "wine-10.10",
-                           "releaseAsset":  "emucorep-wine-10.10.tar.zst",
-                           "releaseSha256":  "b53ff89d479fb0d4422f7075ca4771145b647ebf9fc8f13ba1f84f53d409a4be",
+                           "id":  "wine-10.10-p1",
+                           "releaseAsset":  "emucorep-wine-10.10-p1.tar.zst",
+                           "releaseSha256":  "b24dd443c6857b64188923e0cbca702eeb3278313e1b73c001a2549c30dcca9e",
                            "sourceRepository":  "https://github.com/brunodev85/winlator",
                            "sourceCommit":  "c2f4ad4534f4637b543a9a3b085e28f50cf6d01c",
                            "sourcePath":  "app/app/src/main/assets/rootfs.tzst",
                            "sourceSha256":  "27c12533323e0cc0e5f4ddf141a0d567e340cf2740e5aebaefc63b039fd19613",
                            "upstreamProject":  "https://gitlab.winehq.org/wine/wine",
                            "license":  "LGPL-2.1-or-later",
-                           "transformation":  "rootfs.tzst opt/wine entries"
+                           "transformation":  "rootfs.tzst opt/wine entries; fixed-length private runtime root relocation to /data/data/com.sbro.emucorep/rootfs_; EmuCoreP relocation marker added"
                        },
                        {
                            "id":  "box64-0.3.7",

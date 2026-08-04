@@ -12,8 +12,8 @@ devices.
 
 | Component | Available versions | Recommended |
 | --- | --- | --- |
-| Root file system | 11.1-c2f4ad4-p1 | 11.1-c2f4ad4-p1 |
-| Wine | 10.10 | 10.10 |
+| Root file system | 11.1-c2f4ad4-p2 | 11.1-c2f4ad4-p2 |
+| Wine | 10.10-p1 | 10.10-p1 |
 | Box64 | 0.3.7, 0.4.0 | 0.4.0 |
 | DXVK | 1.10.3, 2.4.1, 2.6.1 Preview | 2.4.1 |
 | VKD3D-Proton | 2.12, 2.14.1, 3.0b Preview | 2.14.1 |

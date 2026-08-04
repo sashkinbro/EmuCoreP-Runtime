@@ -1,18 +1,18 @@
 {
     "schemaVersion":  2,
-    "revision":  2026080401,
+    "revision":  2026080402,
     "components":  [
                        {
-                           "id":  "rootfs-winlator-11.1-c2f4ad4-p1",
+                           "id":  "rootfs-emucorep-11.1-c2f4ad4-p2",
                            "type":  "RootFileSystem",
-                           "version":  "11.1-c2f4ad4-p1",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-rootfs-11.1-c2f4ad4-p1.tar.zst",
-                           "sha256":  "74552d90c37b46677e6b6f934f63ba5cadf6416ba9ccd1d4342a7f62ec591bb5",
-                           "sizeBytes":  25128686,
-                           "unpackedSizeBytes":  95707987,
-                           "unpackedFileCount":  1477,
+                           "version":  "11.1-c2f4ad4-p2",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.04-r3/emucorep-rootfs-11.1-c2f4ad4-p2.tar.zst",
+                           "sha256":  "b562d00f435307369a9577558633e46c8bc9f978048f8a2525489fd2ff965d92",
+                           "sizeBytes":  25073420,
+                           "unpackedSizeBytes":  95708024,
+                           "unpackedFileCount":  1478,
                            "archiveFormat":  "TarZstd",
-                           "installDirectory":  "rootfs/11.1-c2f4ad4-p1",
+                           "installDirectory":  "rootfs/11.1-c2f4ad4-p2",
                            "requires":  [
 
                                         ],
@@ -20,18 +20,18 @@
                            "recommended":  true
                        },
                        {
-                           "id":  "wine-10.10",
+                           "id":  "wine-10.10-p1",
                            "type":  "Wine",
-                           "version":  "10.10",
-                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-wine-10.10.tar.zst",
-                           "sha256":  "b53ff89d479fb0d4422f7075ca4771145b647ebf9fc8f13ba1f84f53d409a4be",
-                           "sizeBytes":  67327006,
-                           "unpackedSizeBytes":  317048554,
-                           "unpackedFileCount":  1676,
+                           "version":  "10.10-p1",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.04-r3/emucorep-wine-10.10-p1.tar.zst",
+                           "sha256":  "b24dd443c6857b64188923e0cbca702eeb3278313e1b73c001a2549c30dcca9e",
+                           "sizeBytes":  67456967,
+                           "unpackedSizeBytes":  317048591,
+                           "unpackedFileCount":  1677,
                            "archiveFormat":  "TarZstd",
-                           "installDirectory":  "wine/10.10",
+                           "installDirectory":  "wine/10.10-p1",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
+                                            "rootfs-emucorep-11.1-c2f4ad4-p2"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -48,7 +48,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "box64/0.3.7",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
+                                            "rootfs-emucorep-11.1-c2f4ad4-p2"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -65,7 +65,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "box64/0.4.0",
                            "requires":  [
-                                            "rootfs-winlator-11.1-c2f4ad4-p1"
+                                            "rootfs-emucorep-11.1-c2f4ad4-p2"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -82,7 +82,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "dxvk/1.10.3",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -99,7 +99,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "dxvk/2.4.1",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -116,7 +116,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "dxvk/2.6.1",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Preview",
                            "recommended":  false
@@ -133,7 +133,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "vkd3d-proton/2.12",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  false
@@ -150,7 +150,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "vkd3d-proton/2.14.1",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Stable",
                            "recommended":  true
@@ -167,7 +167,7 @@
                            "archiveFormat":  "TarZstd",
                            "installDirectory":  "vkd3d-proton/3.0b",
                            "requires":  [
-                                            "wine-10.10"
+                                            "wine-10.10-p1"
                                         ],
                            "channel":  "Preview",
                            "recommended":  false
