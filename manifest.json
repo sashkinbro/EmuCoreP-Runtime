@@ -33,6 +33,21 @@
       "recommended": true
     },
     {
+      "id": "wine-arm64ec-10.10",
+      "type": "WineArm64EC",
+      "version": "10.10-arm64ec",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.04-r3/emucorep-wine-10.10-p1.tar.zst",
+      "sha256": "b24dd443c6857b64188923e0cbca702eeb3278313e1b73c001a2549c30dcca9e",
+      "sizeBytes": 67456967,
+      "unpackedSizeBytes": 317048591,
+      "unpackedFileCount": 1677,
+      "archiveFormat": "TarZstd",
+      "installDirectory": "wine-arm64ec/10.10",
+      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "channel": "Preview",
+      "recommended": false
+    },
+    {
       "id": "box64-0.4.0",
       "type": "Box64",
       "version": "0.4.0",
@@ -90,6 +105,21 @@
       "installDirectory": "box64/0.3.3",
       "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
       "channel": "Stable",
+      "recommended": false
+    },
+    {
+      "id": "fex-2608",
+      "type": "Fex",
+      "version": "2608",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-box64-0.4.0.tar.zst",
+      "sha256": "047fccbd2e3022a624b7442b105137f860f60dda229743f8a9754dcd21c41906",
+      "sizeBytes": 4055166,
+      "unpackedSizeBytes": 26678736,
+      "unpackedFileCount": 1,
+      "archiveFormat": "TarZstd",
+      "installDirectory": "fex/2608",
+      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "channel": "Preview",
       "recommended": false
     },
     {
