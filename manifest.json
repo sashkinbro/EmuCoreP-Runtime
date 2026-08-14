@@ -255,7 +255,7 @@
       "installDirectory": "wined3d/10.0",
       "requires": ["wine-10.10-p1"],
       "channel": "Stable",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "wined3d-7.8",
