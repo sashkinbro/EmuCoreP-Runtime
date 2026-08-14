@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "revision":  2026080402,
+    "revision":  2026081401,
     "components":  [
                        {
                            "id":  "rootfs-emucorep-11.1-c2f4ad4-p2",
@@ -171,6 +171,40 @@
                                         ],
                            "channel":  "Preview",
                            "recommended":  false
+                       },
+                       {
+                           "id":  "turnip-26.1.0",
+                           "type":  "Turnip",
+                           "version":  "26.1.0",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03/emucorep-turnip-26.1.0.tar.zst",
+                           "sha256":  "9b4a10975456197e403c2b6a8a9781a8fd42ccf5048262a8cdea6538bb68d288",
+                           "sizeBytes":  2505432,
+                           "unpackedSizeBytes":  16101748,
+                           "unpackedFileCount":  2,
+                           "archiveFormat":  "TarZstd",
+                           "installDirectory":  "turnip/26.1.0",
+                           "requires":  [
+                                            "rootfs-emucorep-11.1-c2f4ad4-p2"
+                                        ],
+                           "channel":  "Stable",
+                           "recommended":  true
+                       },
+                       {
+                           "id":  "vortek-2.1",
+                           "type":  "Vortek",
+                           "version":  "2.1",
+                           "downloadUrl":  "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.13/emucorep-vortek-2.1.tar.zst",
+                           "sha256":  "9df0b1767285aa31325296f4aa3106902e2ec47f6e3ee07ce92d3aa54a7d5636",
+                           "sizeBytes":  143619,
+                           "unpackedSizeBytes":  422749,
+                           "unpackedFileCount":  2,
+                           "archiveFormat":  "TarZstd",
+                           "installDirectory":  "vortek/2.1",
+                           "requires":  [
+                                            "rootfs-emucorep-11.1-c2f4ad4-p2"
+                                        ],
+                           "channel":  "Stable",
+                           "recommended":  true
                        }
                    ]
 }
