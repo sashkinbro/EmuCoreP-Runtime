@@ -28,7 +28,9 @@
       "unpackedFileCount": 1677,
       "archiveFormat": "TarZstd",
       "installDirectory": "wine/10.10-p1",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": true
     },
@@ -36,14 +38,16 @@
       "id": "wine-arm64ec-10.10",
       "type": "WineArm64EC",
       "version": "10.10-arm64ec",
-      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.04-r3/emucorep-wine-10.10-p1.tar.zst",
-      "sha256": "b24dd443c6857b64188923e0cbca702eeb3278313e1b73c001a2549c30dcca9e",
-      "sizeBytes": 67456967,
-      "unpackedSizeBytes": 317048591,
+      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-wine-arm64ec-10.10.tar.zst",
+      "sha256": "b1ef4acc530566f919e458083b3ae988bd9641911bc16e05e110511730483ad5",
+      "sizeBytes": 63414889,
+      "unpackedSizeBytes": 317384416,
       "unpackedFileCount": 1677,
       "archiveFormat": "TarZstd",
       "installDirectory": "wine-arm64ec/10.10",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -58,7 +62,9 @@
       "unpackedFileCount": 1,
       "archiveFormat": "TarZstd",
       "installDirectory": "box64/0.4.0",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": true
     },
@@ -73,7 +79,9 @@
       "unpackedFileCount": 1,
       "archiveFormat": "TarZstd",
       "installDirectory": "box64/0.3.7",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -88,7 +96,9 @@
       "unpackedFileCount": 1,
       "archiveFormat": "TarZstd",
       "installDirectory": "box64/0.3.5",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -103,7 +113,9 @@
       "unpackedFileCount": 1,
       "archiveFormat": "TarZstd",
       "installDirectory": "box64/0.3.3",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -111,14 +123,16 @@
       "id": "fex-2608",
       "type": "Fex",
       "version": "2608",
-      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-box64-0.4.0.tar.zst",
-      "sha256": "047fccbd2e3022a624b7442b105137f860f60dda229743f8a9754dcd21c41906",
-      "sizeBytes": 4055166,
-      "unpackedSizeBytes": 26678736,
-      "unpackedFileCount": 1,
+      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-fex-2608.tar.zst",
+      "sha256": "a74186f8b4354590ef6d9ab7caed9bb0b55d5f9d40cf986483cd81fe15856e30",
+      "sizeBytes": 25140954,
+      "unpackedSizeBytes": 133393718,
+      "unpackedFileCount": 6,
       "archiveFormat": "TarZstd",
       "installDirectory": "fex/2608",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -133,7 +147,9 @@
       "unpackedFileCount": 10,
       "archiveFormat": "TarZstd",
       "installDirectory": "dxvk/2.4.1",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": true
     },
@@ -148,7 +164,9 @@
       "unpackedFileCount": 10,
       "archiveFormat": "TarZstd",
       "installDirectory": "dxvk/2.6.1",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -163,7 +181,9 @@
       "unpackedFileCount": 10,
       "archiveFormat": "TarZstd",
       "installDirectory": "dxvk/2.5.2",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -178,7 +198,9 @@
       "unpackedFileCount": 10,
       "archiveFormat": "TarZstd",
       "installDirectory": "dxvk/2.3.1",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -193,7 +215,9 @@
       "unpackedFileCount": 12,
       "archiveFormat": "TarZstd",
       "installDirectory": "dxvk/1.10.3",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -208,7 +232,9 @@
       "unpackedFileCount": 4,
       "archiveFormat": "TarZstd",
       "installDirectory": "vkd3d-proton/2.14.1",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": true
     },
@@ -223,7 +249,9 @@
       "unpackedFileCount": 4,
       "archiveFormat": "TarZstd",
       "installDirectory": "vkd3d-proton/3.0b",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -238,7 +266,9 @@
       "unpackedFileCount": 4,
       "archiveFormat": "TarZstd",
       "installDirectory": "vkd3d-proton/2.12",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -253,7 +283,9 @@
       "unpackedFileCount": 6,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/10.0",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -268,7 +300,9 @@
       "unpackedFileCount": 6,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/7.8",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -283,7 +317,9 @@
       "unpackedFileCount": 6,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/4.21",
-      "requires": ["wine-10.10-p1"],
+      "requires": [
+        "wine-10.10-p1"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -298,7 +334,9 @@
       "unpackedFileCount": 2,
       "archiveFormat": "TarZstd",
       "installDirectory": "turnip/26.1.0",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": true
     },
@@ -313,7 +351,9 @@
       "unpackedFileCount": 2,
       "archiveFormat": "TarZstd",
       "installDirectory": "turnip/26.0.3",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -328,7 +368,9 @@
       "unpackedFileCount": 2,
       "archiveFormat": "TarZstd",
       "installDirectory": "turnip/25.0.0",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -343,7 +385,9 @@
       "unpackedFileCount": 2,
       "archiveFormat": "TarZstd",
       "installDirectory": "turnip/24.1.0",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": false
     },
@@ -358,7 +402,9 @@
       "unpackedFileCount": 2,
       "archiveFormat": "TarZstd",
       "installDirectory": "vortek/2.1",
-      "requires": ["rootfs-emucorep-11.1-c2f4ad4-p2"],
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
       "channel": "Stable",
       "recommended": true
     }
