@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 2026082002,
+  "revision": 2026082003,
   "components": [
     {
       "id": "rootfs-emucorep-11.1-c2f4ad4-p2",
@@ -185,6 +185,27 @@
       "installDirectory": "dxvk/2.6.1",
       "requires": [
         "wine-10.10-p1"
+      ],
+      "channel": "Preview",
+      "recommended": false
+    },
+    {
+      "id": "dxvk-2.6.1-gplasync-universal",
+      "type": "Dxvk",
+      "version": "2.6.1-gplasync-universal",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.20-arm64ec-r1/emucorep-dxvk-2.6.1-gplasync-universal.tar.zst",
+      "sha256": "bc0c3b51edae7524e061fb997a8fd3dc5e00aafa90c34c592bb990f149802a74",
+      "sizeBytes": 18217339,
+      "unpackedSizeBytes": 51284106,
+      "unpackedFileCount": 22,
+      "archiveFormat": "TarZstd",
+      "installDirectory": "dxvk/2.6.1-gplasync-universal",
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2"
+      ],
+      "capabilities": [
+        "dxvk.async",
+        "dxvk.arm64ec"
       ],
       "channel": "Preview",
       "recommended": false
