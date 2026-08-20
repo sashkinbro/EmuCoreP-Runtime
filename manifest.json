@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 2026081402,
+  "revision": 2026082002,
   "components": [
     {
       "id": "rootfs-emucorep-11.1-c2f4ad4-p2",
@@ -35,19 +35,40 @@
       "recommended": true
     },
     {
-      "id": "wine-arm64ec-10.10",
+      "id": "wine-arm64ec-proton-10.0-4-sdk28",
       "type": "WineArm64EC",
-      "version": "10.10-arm64ec",
-      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-wine-arm64ec-10.10.tar.zst",
-      "sha256": "b1ef4acc530566f919e458083b3ae988bd9641911bc16e05e110511730483ad5",
-      "sizeBytes": 63414889,
-      "unpackedSizeBytes": 317384416,
-      "unpackedFileCount": 1677,
+      "version": "proton-10.0-4-arm64ec-sdk28",
+      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-wine-arm64ec-proton-10.0-4-sdk28.tar.zst",
+      "sha256": "845ca388ea9bbf36a2cf76f2655045c5f2f729d96da71b12d9d76e3a413e268e",
+      "sizeBytes": 92560128,
+      "unpackedSizeBytes": 436127605,
+      "unpackedFileCount": 2182,
       "archiveFormat": "TarZstd",
-      "installDirectory": "wine-arm64ec/10.10",
+      "installDirectory": "wine-arm64ec/proton-10.0-4-sdk28",
       "requires": [
-        "rootfs-emucorep-11.1-c2f4ad4-p2"
+        "rootfs-emucorep-11.1-c2f4ad4-p2",
+        "fexcore-2608"
       ],
+      "supportedPageSizes": [4096],
+      "channel": "Preview",
+      "recommended": false
+    },
+    {
+      "id": "wine-arm64ec-proton-10.0-4-sdk35",
+      "type": "WineArm64EC",
+      "version": "proton-10.0-4-arm64ec-sdk35",
+      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-wine-arm64ec-proton-10.0-4-sdk35.tar.zst",
+      "sha256": "8d284517fc98566cea9e63dd43ecd12bd232efb6ca0846b9772418b28b344020",
+      "sizeBytes": 92550531,
+      "unpackedSizeBytes": 436139893,
+      "unpackedFileCount": 2182,
+      "archiveFormat": "TarZstd",
+      "installDirectory": "wine-arm64ec/proton-10.0-4-sdk35",
+      "requires": [
+        "rootfs-emucorep-11.1-c2f4ad4-p2",
+        "fexcore-2608"
+      ],
+      "supportedPageSizes": [16384],
       "channel": "Preview",
       "recommended": false
     },
@@ -120,19 +141,17 @@
       "recommended": false
     },
     {
-      "id": "fex-2608",
+      "id": "fexcore-2608",
       "type": "Fex",
       "version": "2608",
-      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-fex-2608.tar.zst",
-      "sha256": "a74186f8b4354590ef6d9ab7caed9bb0b55d5f9d40cf986483cd81fe15856e30",
-      "sizeBytes": 25140954,
-      "unpackedSizeBytes": 133393718,
-      "unpackedFileCount": 6,
+      "downloadUrl": "https://raw.githubusercontent.com/sashkinbro/EmuCoreP-Runtime/main/emucorep-fexcore-2608.tar.zst",
+      "sha256": "0890206f54d109ddd4c0da8b5172edabc428fa9eeed67e69f72f9fe11df146e7",
+      "sizeBytes": 2441081,
+      "unpackedSizeBytes": 11293126,
+      "unpackedFileCount": 5,
       "archiveFormat": "TarZstd",
-      "installDirectory": "fex/2608",
-      "requires": [
-        "rootfs-emucorep-11.1-c2f4ad4-p2"
-      ],
+      "installDirectory": "fexcore/2608",
+      "requires": [],
       "channel": "Preview",
       "recommended": false
     },
