@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 2026082003,
+  "revision": 2026082301,
   "components": [
     {
       "id": "rootfs-emucorep-11.1-c2f4ad4-p2",
@@ -49,7 +49,9 @@
         "rootfs-emucorep-11.1-c2f4ad4-p2",
         "fexcore-2608"
       ],
-      "supportedPageSizes": [4096],
+      "supportedPageSizes": [
+        4096
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -68,7 +70,9 @@
         "rootfs-emucorep-11.1-c2f4ad4-p2",
         "fexcore-2608"
       ],
-      "supportedPageSizes": [16384],
+      "supportedPageSizes": [
+        16384
+      ],
       "channel": "Preview",
       "recommended": false
     },
@@ -316,11 +320,11 @@
       "id": "wined3d-10.0",
       "type": "WineD3d",
       "version": "10.0",
-      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-wined3d-10.0.tar.zst",
-      "sha256": "6b85af76c76ac11ca08fd96b4547eae3b4fbf11825a93f918fcd9b360b3bdb9e",
-      "sizeBytes": 3509091,
-      "unpackedSizeBytes": 15000000,
-      "unpackedFileCount": 6,
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.23-r1/emucorep-wined3d-10.0.tar.zst",
+      "sha256": "61119a7032dcc75e5e7f7ee869df645bb1296c7483956f501d7e71b470bcb7f0",
+      "sizeBytes": 3672219,
+      "unpackedSizeBytes": 9977856,
+      "unpackedFileCount": 18,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/10.0",
       "requires": [
@@ -333,11 +337,11 @@
       "id": "wined3d-7.8",
       "type": "WineD3d",
       "version": "7.8",
-      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-wined3d-7.8.tar.zst",
-      "sha256": "7cef3d0d1c348a2b63fa4be8013d8905ddbe9e098528eda2a82e7c5811b5fbc7",
-      "sizeBytes": 2985074,
-      "unpackedSizeBytes": 12000000,
-      "unpackedFileCount": 6,
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.23-r1/emucorep-wined3d-7.8.tar.zst",
+      "sha256": "61119a7032dcc75e5e7f7ee869df645bb1296c7483956f501d7e71b470bcb7f0",
+      "sizeBytes": 3672219,
+      "unpackedSizeBytes": 9977856,
+      "unpackedFileCount": 18,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/7.8",
       "requires": [
@@ -350,11 +354,11 @@
       "id": "wined3d-4.21",
       "type": "WineD3d",
       "version": "4.21",
-      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.03-r2/emucorep-wined3d-4.21.tar.zst",
-      "sha256": "48f2479432faf7b92de35816e007cd5dc0592c4dd2a507872023b0925cf830f3",
-      "sizeBytes": 2081266,
-      "unpackedSizeBytes": 9000000,
-      "unpackedFileCount": 6,
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreP-Runtime/releases/download/runtime-2026.08.23-r1/emucorep-wined3d-4.21.tar.zst",
+      "sha256": "61119a7032dcc75e5e7f7ee869df645bb1296c7483956f501d7e71b470bcb7f0",
+      "sizeBytes": 3672219,
+      "unpackedSizeBytes": 9977856,
+      "unpackedFileCount": 18,
       "archiveFormat": "TarZstd",
       "installDirectory": "wined3d/4.21",
       "requires": [

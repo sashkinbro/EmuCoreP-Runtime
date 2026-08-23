@@ -62,7 +62,6 @@ is recorded in
 
 ## Third-Party Software
 
-- [Winlator](https://github.com/brunodev85/winlator) — LGPL-2.1
 - [Wine](https://gitlab.winehq.org/wine/wine) — LGPL-2.1-or-later
 - [Box64](https://github.com/ptitSeb/box64) — MIT
 - [DXVK](https://github.com/doitsujin/dxvk) — Zlib
